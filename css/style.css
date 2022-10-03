@@ -90,3 +90,115 @@ h1{
   /* debug */
   background-color: #FFC619;
 }
+
+/* main section*/
+
+.channel{
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* debug */
+  background-color: #B0D7DE;
+}
+
+/* section reverse */
+.reverse{
+  flex-direction: row-reverse;
+}
+
+.img{
+  width: 500px;
+  min-height: 450px;
+
+  /* debug */
+  background-color: #FFF4B3;
+}
+
+.title-section{
+  width: 500px;
+  min-height: 100px;
+
+  /* debug */
+  background-color: #fff;
+}
+
+.description{
+  width: 500px;
+  min-height: 450px;
+
+  /* debug */
+  background-color: #FFC619;
+}
+
+/* videocall section */
+.videocontainer{
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* debug */
+  background-color: #B0D7DE;
+}
+
+.title-videocall{
+  width: 1000px;
+  min-height: 100px;
+
+  /* debug */
+  background-color: #E78C85;
+}
+
+.videocall{
+  width: 1000px;
+  min-height:100px;
+
+  /* debug */
+  background-color: #FFF4B3;
+}
+
+.video-img{
+  width: 1000px;
+  min-height: 500px;
+
+  /* debug */
+  background-color: #fff;
+}
+
+/* call to action */
+.cta{
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* debug */
+  background-color: #B0D7DE;
+}
+
+h3{
+  width: 500px;
+  min-height: 100px;
+
+  /* debug */
+  background-color: #f4b797;
+}
+
+
+.btn-scarica{
+    width: 500px;
+    min-height: 100px;
+  
+    /* debug */
+    background-color: rgb(66, 131, 131);
+}
+
+
+
