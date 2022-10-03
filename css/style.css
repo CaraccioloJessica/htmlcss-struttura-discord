@@ -6,7 +6,7 @@
 
 /* header pagina */
 .navigation-menu{
-  height: 100px;
+  height: 80px;
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -16,7 +16,7 @@
 }
 
 .logo{
-  height: 100px;
+  height: 100%;
   width: 20%;
 
   /* debug */
@@ -24,7 +24,7 @@
 }
 
 .menu{
-  height: 100px;
+  height: 100%;
   width: 60%;
 
   /* debug */
@@ -32,19 +32,61 @@
 }
 
 .button-accedi{
-  height: 100px;
+  height: 100%;
   width: 20%;
 
   /* debug */
   background-color: #255EE9;
 }
 
+/* container intestazione */
 .container{
-  height: 500px;
+  height: 450px;
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
   /* debug */
   background-color: #f4b797;
+}
+
+h1{
+  height: 80px;
+  width: 700px;
+
+  /* debug */
+  background-color: #fff;
+}
+
+.container p {
+  min-height: 100px;
+  width: 700px;
+
+  /* debug */
+  background-color: #E78C85;
+}
+
+/* button header */
+.btn{
+  width: 100%px;
+  min-height: 70px;
+  display:flex
+}
+
+.btn-dowload{
+  width: 350px;
+  min-height: 70px;
+
+  /* debug */
+  background-color:#FFF4B3;
+}
+
+.btn-apri{
+  width: 350px;
+  min-height: 70px;
+
+  /* debug */
+  background-color: #FFC619;
 }
