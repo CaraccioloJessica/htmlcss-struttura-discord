@@ -193,12 +193,65 @@ h3{
 
 
 .btn-scarica{
-    width: 500px;
-    min-height: 100px;
-  
-    /* debug */
-    background-color: rgb(66, 131, 131);
+  width: 500px;
+  min-height: 100px;
+
+  /* debug */
+  background-color: rgb(66, 131, 131);
 }
 
+/* footer */
+footer{
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  /* debug */
+  background-color: #292841;
+}
+
+.icon-section{
+  width: 20%;
+  min-height: 300px;
+
+  /* debug */
+  background-color: aqua;
+}
+
+.product{
+  width: 20%;
+  min-height: 300px;
+
+  /* debug */
+  background-color: rgb(21, 160, 160); 
+}
+
+.resources{
+  width: 20%;
+  min-height: 300px;
+
+  /* debug */
+  background-color: rgb(105, 133, 133); 
+
+}
+
+.norme{
+  width: 20%;
+  min-height: 300px;
+
+  /* debug */
+  background-color: rgb(7, 56, 56); 
+}
+
+.ending{
+  width: 80%;
+  min-height: 100px;
+
+  /* debug */
+  background-color: #B0D7DE;
+}
 
 
