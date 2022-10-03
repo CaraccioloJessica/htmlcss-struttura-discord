@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* header pagina */
+.navigation-menu{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+
+  /* debug */
+  background-color: #F4B797;
+}
+
+.logo{
+  height: 100px;
+  width: 20%;
+
+  /* debug */
+  background-color: #255EE9;
+}
+
+.menu{
+  height: 100px;
+  width: 60%;
+
+  /* debug */
+  background-color: #E78C85;
+}
+
+.button-accedi{
+  height: 100px;
+  width: 20%;
+
+  /* debug */
+  background-color: #255EE9;
+}
+
+.container{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  /* debug */
+  background-color: #f4b797;
+}
